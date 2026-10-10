@@ -23,13 +23,10 @@ worker/.wrangler/
 
 # ── Environment secrets (never commit) ───────────────────────────────────────
 *.local
-.env
-.env.local
 .env.*.local
 worker/.dev.vars
 
 # ── Editor ────────────────────────────────────────────────────────────────────
-.vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
@@ -38,3 +35,4 @@ worker/.dev.vars
 *.njsproj
 *.sln
 *.sw?
+config.bat

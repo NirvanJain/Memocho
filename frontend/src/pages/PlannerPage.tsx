@@ -15,7 +15,9 @@ export const PlannerPage: React.FC = () => {
   const setPriority     = useTasksStore((s) => s.setPriority);
   const updateTask      = useTasksStore((s) => s.updateTask);
 
-  // Count tasks per date for calendar dots
+  // Count tasks per date for calendar dots dots
+
+  
   const tasksCountByDate = useMemo(() => {
     const counts: Record<string, number> = {};
     tasks.forEach((t) => {
